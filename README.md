@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="readme/crew-text.png" alt="Food Festival Crew API" width="400" />
+<img src="readme/crew-text.jpg" alt="Food Festival Crew API" width="400" />
 
 # Food Festival Crew API
 *A Food Festival held in Manila, Philippines. This application follows software industry standard using microservices architecture. The CrewAPI is the middleware API between FoodFestivalAPI and mobile client.*
@@ -15,27 +15,27 @@
 <table border="0" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-login.png" alt="Login Screen" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-login.jpg" alt="Login Screen" width="180" style="border-radius: 10px;" />
       <br/>
       <sub>🔐 Login Screen</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-food.png" alt="Food of the Day" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-food.jpg" alt="Food of the Day" width="180" style="border-radius: 10px;" />
       <br/>
       <sub>🍽️ Food of the Day</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-details.png" alt="Food Details" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-details.jpg" alt="Food Details" width="180" style="border-radius: 10px;" />
       <br/>
       <sub>📋 Food Details</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-alerts.png" alt="Packaging Status" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-alerts.jpg" alt="Packaging Status" width="180" style="border-radius: 10px;" />
       <br/>
       <sub>🔔 Packaging Status</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-packaging.png" alt="Multi-Process Packaging" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-packaging.jpg" alt="Multi-Process Packaging" width="180" style="border-radius: 10px;" />
       <br/>
       <sub>📦 Multi-Process Packaging</sub>
     </td>
@@ -64,7 +64,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div>
 
 ![Java](https://img.shields.io/badge/Java-e8834a?style=for-the-badge&logo=openjdk&logoColor=ffffff)
 ![Node.js](https://img.shields.io/badge/Node.js-f0a06b?style=for-the-badge&logo=nodedotjs&logoColor=ffffff)
