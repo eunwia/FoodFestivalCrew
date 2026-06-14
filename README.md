@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="readme/crew-text.png" alt="Food Festival Crew API" width="400" />
+<img src="readme/crew-text.png" alt="Food Festival Crew API" width="200" />
 
 # Food Festival Crew API
 *A Food Festival held in Manila, Philippines. This application follows software industry standard using microservices architecture. The CrewAPI is the middleware API between FoodFestivalAPI and mobile client.*
