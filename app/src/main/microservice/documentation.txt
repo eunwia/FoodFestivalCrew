@@ -1,0 +1,46 @@
+CrewAPI Documentation
+=====================
+
+Base URL: http://192.168.1.52:8080/api
+
+ENDPOINTS DEVELOPED:
+--------------------
+POST /api/login
+  Body : { "email": "user@example.com" }
+  Returns: { "result": "Authorized Credential" | "Unauthorized Credential",
+             "token": "...", "email": "..." }
+
+GET /api/credentials
+  Returns: All authorized credentials stored in the User table
+
+GET /api/food?month=MM&year=YYYY
+  Returns: Food of Day list sorted by date ascending
+  Headers: x-token: <remember_token>
+
+GET /api/ingredients/:foodOfDayId
+  Returns: Ingredients filtered by food_id (format matches FoodFestivalAPI)
+  Headers: x-token: <remember_token>
+
+GET /api/status
+  Returns: Current packaging status messages with done flag
+  Headers: x-token: <remember_token>
+
+GET /api/packaging?option=CODE
+  Returns: Steps and total time for the given packaging option
+  Headers: x-token: <remember_token>
+
+GET /api/token
+  Returns: Remember token from FoodFestivalAPI
+
+AUTHORIZED CREDENTIALS IN USER TABLE:
+--------------------------------------
+admin@food.my        (always authorized)
+alice@food.my
+bob@crew.my
+chef.maria@food.my
+supervisor@festival.my
+crew1@food.my
+(additional credentials synced from FoodFestivalAPI server-log on each login)
+
++ these credentials cannot be created on the login form
++ only authorized individuals are allowed to login

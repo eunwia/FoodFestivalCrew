@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.FoodFestivalCrew" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#E65100</item>
+        <item name="colorPrimaryDark">#BF360C</item>
+        <item name="colorAccent">#FF6D00</item>
+    </style>
+</resources>

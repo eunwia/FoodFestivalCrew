@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_food"   android:title="Food of Day"/>
+    <item android:id="@+id/nav_status" android:title="Packaging Status"/>
+    <item android:id="@+id/nav_info"   android:title="Packaging Information"/>
+    <item android:id="@+id/nav_logout" android:title="Log Out"/>
+</menu>
