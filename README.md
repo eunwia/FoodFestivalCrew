@@ -15,46 +15,29 @@
 <table border="0" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-login.jpg" alt="Login Screen" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-login.jpg" alt="Login Screen" width="180" height="320" style="border-radius: 10px; object-fit: cover;" />
       <br/>
       <sub>🔐 Login Screen</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-food.jpg" alt="Food of the Day" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-food.jpg" alt="Food of the Day" width="180" height="320" style="border-radius: 10px; object-fit: cover;" />
       <br/>
       <sub>🍽️ Food of the Day</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-details.jpg" alt="Food Details" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-details.jpg" alt="Food Details" width="180" height="320" style="border-radius: 10px; object-fit: cover;" />
       <br/>
       <sub>📋 Food Details</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-alerts.jpg" alt="Packaging Status" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-alerts.jpg" alt="Packaging Status" width="180" height="320" style="border-radius: 10px; object-fit: cover;" />
       <br/>
       <sub>🔔 Packaging Status</sub>
     </td>
     <td align="center" style="border: none; padding: 8px;">
-      <img src="readme/crew-packaging.jpg" alt="Multi-Process Packaging" width="180" style="border-radius: 10px;" />
+      <img src="readme/crew-packaging.jpg" alt="Multi-Process Packaging" width="180" height="320" style="border-radius: 10px; object-fit: cover;" />
       <br/>
       <sub>📦 Multi-Process Packaging</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="border: none; padding: 8px;">
-      <sub>Only authorized API users can access the App.</sub>
-    </td>
-    <td align="center" style="border: none; padding: 8px;">
-      <sub>Food of the day is displayed here.</sub>
-    </td>
-    <td align="center" style="border: none; padding: 8px;">
-      <sub>Food ingredient details using the formula:<br/><code>packaging_time = (Atime × Bscoop) + (Btime × Ascoop)</code></sub>
-    </td>
-    <td align="center" style="border: none; padding: 8px;">
-      <sub>Displays the current packaging status fetched from FoodFestivalAPI.</sub>
-    </td>
-    <td align="center" style="border: none; padding: 8px;">
-      <sub>Explanation text to help crew understand Multi-Process Packaging.</sub>
     </td>
   </tr>
 </table>
